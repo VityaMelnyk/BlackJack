@@ -1,0 +1,122 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-image: url(/img/Fishki.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container{
+    /*max-width: 1200px;*/
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+}
+.desk{
+
+}
+img {
+    width: 45px;
+    height: 70px;
+}
+.deck-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.tittle-card img{
+    position: relative;
+    margin: 12px;
+}
+.tittle-card{
+
+    display: flex;
+    justify-content: center;
+}
+.deck-counter{
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+    left: 48.8%;
+    color: black;
+    font-size: 30px;
+}
+
+.deck-list li{
+    list-style-type: none;
+    margin: 12px;
+}
+.wrap {
+    overflow:hidden;
+    display: grid;
+    width: 600px;
+    height: 510px;
+    background-image: url("/img/proba.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 20px 0px 20px;
+    box-shadow: 0px 0px 20px 5px #ffc107;
+    border: solid #ffc10778 10px;
+}
+
+.player-result {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.player-cards,
+.comp-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.player-desk,
+.comp-desk{
+    width: 285px;
+}
+.player-sum,
+.comp-sum{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #F9FF0D;
+}
+.massage-result{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: #F9FF0D;
+}
+
+.refresh button{
+    width: 80px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+.options
+.refresh{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.options
+.button-home{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+
+
+
+
