@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/img/Cards_Playing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container {
+    /*max-width: 1200px;*/
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+}
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 510px;
+    background-image: url("/img/proba.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 20px 0px 20px;
+    box-shadow: 0px 0px 20px 5px #ffc107;
+    border: solid #ffc10778 10px;
+}
+img {
+    width: 45px;
+    height: 70px;
+    margin: 12px;
+}
+.button-next{
+    margin-top: 50px;
+}
+.button-next a{
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
